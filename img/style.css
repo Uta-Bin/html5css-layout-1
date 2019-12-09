@@ -1,0 +1,67 @@
+body {
+   
+    background-color: #ccc;
+}
+
+  /* Style for "logos" 
+
+width: 64px;
+height: 56px;
+background-color: #ffffff;
+background-color: #000000;*/
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #fff;
+}
+."logo-icon" {
+    color: aliceblue;
+}
+.logo-txt {
+    font-family: raleway, arial, sans-serif;
+    font-size: 34px;
+    color: #ffffff;
+    
+}
+.logo:hover .logo-icon {
+    fill: brown;
+}
+.logo:hover .logo-txt {
+  color: gold;
+}
+
+.logo:active .logo-icon {
+    fill: brown;
+}
+.logo:active .logo-txt {
+  color: brown;
+}
+
+.logo:hover span {
+  color: #deb887;  
+}
+.logo:hover:after {
+  background-color: #deb887;
+}
+.logo svg {
+  fill: black;
+}
+.logo span {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+.logo p {
+  width: 100%;
+}
+.logo:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+}
