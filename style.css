@@ -1,3 +1,43 @@
 body {
-  background-color: white;
+   
+    background-color: #ccc;
+}
+
+  /* Style for "logos" 
+
+width: 64px;
+height: 56px;
+background-color: #ffffff;
+background-color: #000000;*/
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #fff;
+}
+."logo-icon" {
+    color: aliceblue;
+}
+.logo-txt {
+    font-family: raleway, arial, sans-serif;
+    font-size: 34px;
+    color: #ffffff;
+    
+}
+.logo:hover .logo-icon {
+    fill: brown;
+}
+.logo:hover .logo-txt {
+  color: gold;
+}
+
+.logo:active .logo-icon {
+    fill: brown;
+}
+.logo:active .logo-txt {
+  color: brown;
 }
